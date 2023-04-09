@@ -1,0 +1,42 @@
+- What is HTTP?
+    
+    Stands for Hyper Text Transfer Protocol and is how we get and send data to a server
+    
+- What is a URL?
+    
+    Stands for Uniform Resource Locator and is an address for webpages and data
+    
+- What is DNS?
+    
+    Stands for Domain Name System and it converts URLs into IP addresses
+    
+- What is a query string?
+    
+    A query string allows you to pass information via URL in key value pairs.`
+    
+- List two HTTP Verbs and their use cases.
+    - GET - get resource from a server
+    - POST - send data to a server
+
+- What is an HTTP request?
+    
+    An HTTP request is a request from a client to a server
+    
+- What is an HTTP response?
+    
+    An HTTP response is a response from a server to a client
+    
+- What is an HTTP header? Give a couple examples of request and response headers you have seen.
+
+    - Headers can be requests or responses that pertain to what we are asking from the server. Examples:
+    - Request Headers: Host, Accept, Cookie
+    - Response headers: Content-Type, Last-Modified, Set-Cookie
+
+- What happens when you type "http://somesite.com/some/page.html" in a browser?
+
+    that one errors out, but I assume it's giving a demo in which case:
+
+    1. It gets parsed/changed into an IP Address
+    2. The browser makes a request to that IP address
+    3. The server responds in the fomat requested
+    4. The browser converts the response and pulls necessary resources
